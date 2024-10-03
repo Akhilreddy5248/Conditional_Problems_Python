@@ -74,3 +74,27 @@ if num > 1:
         print(f"{num} is a prime number.")
 else:
     print(f"{num} is not a prime number.")'''
+
+# finding large number in enterd three numbers
+
+'''num_1 = int(input("Enter first number :"))
+num_2 = int(input("Enter second number2 :"))
+num_3 = int(input("Enter third number :"))
+
+if num_1 >= num_2 and num_1 >=  num_3:
+    print(num_1, "is greater")
+elif num_2 >= num_3 and num_2>= num_1:
+    print(num_2, "is greater")
+else:
+    print(num_3,"is greater")'''
+
+'''def is_largest(a,b,c):
+    if a>=b and a>=c:
+        return a
+    elif b>=a and b>=c:
+        return b
+    else:
+        return c
+
+result = is_largest(5,6,7)
+print(result)'''
